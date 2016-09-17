@@ -1,0 +1,19 @@
+<div style="height: 8vh"></div>
+<div class="ui container">
+	<p id="headline"> Codealyzer </p> 
+	<div id="welcome-message">
+	 	Welcome to Codealzyer! Pick a problem:
+	</div>
+	<br/> <br/>
+	<div class="ui three stackable cards">
+		<a class="ui fluid blue card" ng-repeat="problem in problems" href="/problem/{{problem.id}}">
+			<div class="content">
+				<div class="header">{{problem.title}}</div>
+				<div class="description">
+			     	<p>{{problem.statement}}</p>
+			    </div>
+			</div>
+		</a>
+	</div>
+</div>
+

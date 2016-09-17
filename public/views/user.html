@@ -1,0 +1,41 @@
+<div style="height: 8vh"></div>
+<div class="ui container">
+	<p id="headline"> Codealyzer </p> 
+	<div class="ui stackable two column grid">
+	  <div class="column">
+	  	<div id="code-editor">// Enter your source code here!</div>
+	  </div>
+	  <div class="column">
+		<div id="code-analysis">
+			<p id="problem-title">
+				{{problem.title}}
+			</p>
+			<div id="problem-statement">
+				{{problem.statement}}
+			</div>
+			<div class="ui divider"></div>
+			<br/>
+			<button ng-show="showErrors" class="ui red basic button" ng-click="showErrors = false"> 
+				Hide Feedback
+			</button>
+			<button ng-show="!showErrors" class="ui blue basic button" ng-click="showErrors = true">
+				Show Feedback
+			</button>
+			<div id="analysis-results" ng-show="showErrors">
+				<br/>
+				<p><b>Feedback:</b></p>
+				<p ng-if="errors.length === 0">
+					Everything looks good, great work!
+				<p>
+				<p ng-if="errors.length > 0">
+					Oh no! You need to fix a couple of things:
+				<p>
+				<div ng-repeat="error in errors">
+					{{error.explanation}} 
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+</div>
+

@@ -1,0 +1,52 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ECECEC;
+}
+
+#code-editor { 
+    width: 100%;
+    height: 650px;
+}
+
+#problem-title {
+	font-size: 2.5rem;
+}
+
+.header {
+	font-weight: 300 !important;
+	font-size: 1.6rem !important;
+}
+
+.description {
+	font-size: 1.2rem;
+}
+
+#welcome-message {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+#code-analysis { 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 650px;
+    overflow-y: scroll;
+}
+
+#problem-statement {
+	min-height: 100px;
+	max-height: 200px;
+	overflow-y: scroll;
+}
+
+#problem-statement, #analysis-results {
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+#headline {
+	font-size: 4rem;
+	font-weight: 300;
+	color: #9b59b6;
+}

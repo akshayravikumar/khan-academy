@@ -1,0 +1,282 @@
+{
+    "1": {
+        "title": "Example Problem",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "whitelist": [
+            {
+                "type": "WhileStatement",
+                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+            }
+        ],
+        "blacklist": [
+            {
+                "type": "ForStatement",
+                "explanation": "Try not to use any for loops!"
+            }
+        ],
+        "structure": [
+            {
+                "type": "VariableDeclaration",
+                "children": [],
+                "explanation": "You need to declare a counter so you can use it in your while loop!"
+            },
+            {
+                "type": "WhileStatement",
+                "children": [
+                    {
+                        "type": "IfStatement",
+                        "children": [
+                            {
+                                "type": "CallExpression",
+                                "children": [],
+                                "explanation": "If the number is a multiple of 7, what should we do?"
+                            }
+                        ],
+                        "explanation": "You probably need an 'if' statement to check if the number is a multiple of 7."
+                    }
+                ],
+                "explanation": "Use a while loop to iterate between 1 and 100!"
+            }
+        ]
+    },
+    "2": {
+        "title": "Example Problem",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "whitelist": [
+            {
+                "type": "WhileStatement",
+                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+            }
+        ],
+        "blacklist": [
+            {
+                "type": "ForStatement",
+                "explanation": "Try not to use any for loops!"
+            }
+        ],
+        "structure": [
+            {
+                "type": "VariableDeclaration",
+                "children": [],
+                "explanation": "You need to declare a counter so you can use it in your while loop!"
+            },
+            {
+                "type": "WhileStatement",
+                "children": [
+                    {
+                        "type": "IfStatement",
+                        "children": [
+                            {
+                                "type": "CallExpression",
+                                "children": [],
+                                "explanation": "If the number is a multiple of 7, what should we do?"
+                            }
+                        ],
+                        "explanation": "You probably need an 'if' statement to check if the number is a multiple of 7."
+                    }
+                ],
+                "explanation": "Use a while loop to iterate between 1 and 100!"
+            }
+        ]
+    },
+    "3": {
+        "title": "Example Problem",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "whitelist": [
+            {
+                "type": "WhileStatement",
+                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+            }
+        ],
+        "blacklist": [
+            {
+                "type": "ForStatement",
+                "explanation": "Try not to use any for loops!"
+            }
+        ],
+        "structure": [
+            {
+                "type": "VariableDeclaration",
+                "children": [],
+                "explanation": "You need to declare a counter so you can use it in your while loop!"
+            },
+            {
+                "type": "WhileStatement",
+                "children": [
+                    {
+                        "type": "IfStatement",
+                        "children": [
+                            {
+                                "type": "CallExpression",
+                                "children": [],
+                                "explanation": "If the number is a multiple of 7, what should we do?"
+                            }
+                        ],
+                        "explanation": "You probably need an 'if' statement to check if the number is a multiple of 7."
+                    }
+                ],
+                "explanation": "Use a while loop to iterate between 1 and 100!"
+            }
+        ]
+    },
+    "4": {
+        "title": "Example Problem",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "whitelist": [
+            {
+                "type": "WhileStatement",
+                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+            }
+        ],
+        "blacklist": [
+            {
+                "type": "ForStatement",
+                "explanation": "Try not to use any for loops!"
+            }
+        ],
+        "structure": [
+            {
+                "type": "VariableDeclaration",
+                "children": [],
+                "explanation": "You need to declare a counter so you can use it in your while loop!"
+            },
+            {
+                "type": "WhileStatement",
+                "children": [
+                    {
+                        "type": "IfStatement",
+                        "children": [
+                            {
+                                "type": "CallExpression",
+                                "children": [],
+                                "explanation": "If the number is a multiple of 7, what should we do?"
+                            }
+                        ],
+                        "explanation": "You probably need an 'if' statement to check if the number is a multiple of 7."
+                    }
+                ],
+                "explanation": "Use a while loop to iterate between 1 and 100!"
+            }
+        ]
+    },
+    "5": {
+        "title": "Example Problem",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "whitelist": [
+            {
+                "type": "WhileStatement",
+                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+            }
+        ],
+        "blacklist": [
+            {
+                "type": "ForStatement",
+                "explanation": "Try not to use any for loops!"
+            }
+        ],
+        "structure": [
+            {
+                "type": "VariableDeclaration",
+                "children": [],
+                "explanation": "You need to declare a counter so you can use it in your while loop!"
+            },
+            {
+                "type": "WhileStatement",
+                "children": [
+                    {
+                        "type": "IfStatement",
+                        "children": [
+                            {
+                                "type": "CallExpression",
+                                "children": [],
+                                "explanation": "If the number is a multiple of 7, what should we do?"
+                            }
+                        ],
+                        "explanation": "You probably need an 'if' statement to check if the number is a multiple of 7."
+                    }
+                ],
+                "explanation": "Use a while loop to iterate between 1 and 100!"
+            }
+        ]
+    },
+    "6": {
+        "title": "Example Problem",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "whitelist": [
+            {
+                "type": "WhileStatement",
+                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+            }
+        ],
+        "blacklist": [
+            {
+                "type": "ForStatement",
+                "explanation": "Try not to use any for loops!"
+            }
+        ],
+        "structure": [
+            {
+                "type": "VariableDeclaration",
+                "children": [],
+                "explanation": "You need to declare a counter so you can use it in your while loop!"
+            },
+            {
+                "type": "WhileStatement",
+                "children": [
+                    {
+                        "type": "IfStatement",
+                        "children": [
+                            {
+                                "type": "CallExpression",
+                                "children": [],
+                                "explanation": "If the number is a multiple of 7, what should we do?"
+                            }
+                        ],
+                        "explanation": "You probably need an 'if' statement to check if the number is a multiple of 7."
+                    }
+                ],
+                "explanation": "Use a while loop to iterate between 1 and 100!"
+            }
+        ]
+    },
+    "7": {
+        "title": "Example Problem",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "whitelist": [
+            {
+                "type": "WhileStatement",
+                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+            }
+        ],
+        "blacklist": [
+            {
+                "type": "ForStatement",
+                "explanation": "Try not to use any for loops!"
+            }
+        ],
+        "structure": [
+            {
+                "type": "VariableDeclaration",
+                "children": [],
+                "explanation": "You need to declare a counter so you can use it in your while loop!"
+            },
+            {
+                "type": "WhileStatement",
+                "children": [
+                    {
+                        "type": "IfStatement",
+                        "children": [
+                            {
+                                "type": "CallExpression",
+                                "children": [],
+                                "explanation": "If the number is a multiple of 7, what should we do?"
+                            }
+                        ],
+                        "explanation": "You probably need an 'if' statement to check if the number is a multiple of 7."
+                    }
+                ],
+                "explanation": "Use a while loop to iterate between 1 and 100!"
+            }
+        ]
+    }
+}

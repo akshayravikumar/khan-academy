@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="codealyzerApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Codalyzer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- Angular -->
+  <script src="/assets/js/angular/angular.min.js"></script>
+  <script src="/assets/js/angular/angular-ui-router.min.js"></script>
+
+  <!-- JQuery -->
+  <script src="/assets/js/jquery.min.js"></script>
+
+  <!-- Semantic UI -->
+  <script src="/assets/semantic/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/assets/semantic/semantic.min.css"></link>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="/assets/style.css"></link>
+
+  <script src="/assets/js/ace/ace.js"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+  <!-- angular app -->
+  <script src="/app.js"></script>
+
+  <!-- controllers -->
+  <script src="/controllers/userController.js"></script>
+  <script src="/controllers/splashController.js"></script>
+
+  <base href="/index.html">
+</head>
+
+<body>
+
+<div id="main-ui-view" ui-view>
+  
+</div>
+ 
+</body>
+
+
+</html>
