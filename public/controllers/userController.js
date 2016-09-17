@@ -1,9 +1,6 @@
 angular.module('codealyzerApp')
 .controller("userController", function($scope, $location, $stateParams, $state, $http) {
     var editor = ace.edit("code-editor");
-    editor.setOptions({
-      fontSize: "12pt"
-    });
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/javascript");
     $scope.showErrors = true;
