@@ -40,28 +40,23 @@
         ]
     },
     "2": {
-        "title": "Example Problem",
-        "statement": "Print out all the multiples of seven between 1 and 100, using a while loop with a counter.",
+        "title": "Example Problem 2",
+        "statement": "Print out all the multiples of seven between 1 and 100, using a for loop.",
         "whitelist": [
             {
-                "type": "WhileStatement",
-                "explanation": "The goal of this problem is to teach you about while loops. Use one in your code."
+                "type": "ForStatement",
+                "explanation": "The goal of this problem is to teach you about for loops. Use one in your code."
             }
         ],
         "blacklist": [
             {
-                "type": "ForStatement",
-                "explanation": "Try not to use any for loops!"
+                "type": "WhiteStatement",
+                "explanation": "Try not to use any while loops!"
             }
         ],
         "structure": [
             {
-                "type": "VariableDeclaration",
-                "children": [],
-                "explanation": "You need to declare a counter so you can use it in your while loop!"
-            },
-            {
-                "type": "WhileStatement",
+                "type": "ForStatement",
                 "children": [
                     {
                         "type": "IfStatement",
